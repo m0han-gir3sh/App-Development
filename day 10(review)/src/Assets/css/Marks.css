@@ -1,0 +1,73 @@
+.marks-container {
+    padding: 20px;
+    background-color: #a2dbe2;
+    background-image: url("https://res.cloudinary.com/dnngdn8ev/image/upload/v1695622287/Untitled_design_4_dxb3ph.jpg");
+    animation:zoomIn 4s ease-in-out infinite;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  @keyframes zoomIn {
+    0% {
+      background-size: 100%;
+    }
+    50% {
+      background-size: 130%;
+    }
+    100% {
+      background-size: 110%;
+    }
+  }
+  
+  h1 {
+    
+    font-weight: 3000 ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .marks-table {
+    width: 93%;
+    margin-left:10vh;
+    border-collapse: collapse;
+    color: white;
+    border: 1px solid #ccc;
+  }
+  
+  .marks-table th,
+  .marks-table td {
+    border: 3px solid #c5e7e8;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .marks-table th {
+    background-color: rgb(156, 170, 222);
+    color: #0f0000;
+  }
+  
+  input[type='text'],
+  input[type='number'] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
